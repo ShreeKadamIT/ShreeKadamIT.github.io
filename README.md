@@ -3,7 +3,7 @@
 High-tech personal CIO portfolio for GitHub Pages.
 
 ## Before publishing
-1. Replace `YOUR_EMAIL@example.com` in `index.html` and `contact.html`.
+1. Replace `shree.kadam03@gmail.com` in `index.html` and `contact.html`.
 2. Replace the LinkedIn placeholder URL with your real profile.
 3. Add your profile photo and award/workshop images to the `images/` folders.
 4. Add your real awards and recognition details to `awards.html`.
