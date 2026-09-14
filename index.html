@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shree Kadam | CIO & Healthcare Technology Leader</title>
+
+  <meta name="description"
+        content="Shree Kadam – CIO and Healthcare Technology Leader specializing in healthcare IT, digital transformation, AI, cybersecurity, data privacy and digital health.">
+
+  <meta name="author" content="Shree Kadam">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background: #f7f9fc;
+      color: #172033;
+    }
+
+    header {
+      background: #0b1f3a;
+      color: white;
+      padding: 18px 7%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #0b1f3a, #123e63);
+      color: white;
+      padding: 80px 7%;
+    }
+
+    .hero-content {
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 6vw, 72px);
+      line-height: 1.05;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 25px;
+      font-weight: normal;
+      color: #8fd3ff;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      max-width: 750px;
+      color: #e2edf7;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: white;
+      color: #0b1f3a;
+    }
+
+    .btn-secondary {
+      border: 1px solid white;
+      color: white;
+    }
+
+    section {
+      padding: 80px 7%;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 38px;
+      margin-bottom: 15px;
+      color: #0b1f3a;
+    }
+
+    .section-subtitle {
+      color: #667085;
+      margin-bottom: 40px;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .about-text {
+      max-width: 900px;
+      font-size: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(20, 40, 70, 0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #0b1f3a;
+    }
+
+    .card p {
+      color: #667085;
+    }
+
+    .stats {
+      background: #eef5fa;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 42px;
+      font-weight: bold;
+      color: #0b1f3a;
+    }
+
+    .stat-label {
+      color: #667085;
+    }
+
+    .timeline {
+      border-left: 3px solid #0b1f3a;
+      padding-left: 25px;
+    }
+
+    .timeline-item {
+      margin-bottom: 35px;
+    }
+
+    .timeline-item h3 {
+      color: #0b1f3a;
+    }
+
+    .contact {
+      background: #0b1f3a;
+      color: white;
+    }
+
+    .contact .section-title {
+      color: white;
+    }
+
+    .contact p {
+      color: #dce8f3;
+    }
+
+    footer {
+      background: #071426;
+      color: #b7c4d1;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      nav {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 6px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Shree Kadam</div>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#insights">Insights</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+
+    <h1>Shree Kadam</h1>
+
+    <h2>CIO | Healthcare Technology Leader</h2>
+
+    <p>
+      Transforming Healthcare Through Technology, Data & Innovation.
+      Focused on digital transformation, healthcare IT, AI,
+      cybersecurity, data privacy and digital health.
+    </p>
+
+    <div class="buttons">
+      <a href="#about" class="btn btn-primary">Explore My Journey</a>
+      <a href="#contact" class="btn btn-secondary">Connect With Me</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p class="section-subtitle">
+      Healthcare technology leadership with a focus on practical digital transformation.
+    </p>
+
+    <p class="about-text">
+      I am a healthcare technology leader focused on using technology,
+      data and innovation to improve hospital operations, patient
+      experience and organizational efficiency.
+      <br><br>
+      My areas of interest include Healthcare IT, HMIS, Artificial
+      Intelligence, Data Analytics, Cybersecurity, Data Privacy,
+      Digital Health and Healthcare Digital Transformation.
+    </p>
+
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+
+    <div class="grid">
+
+      <div class="stat">
+        <div class="stat-number">11+</div>
+        <div class="stat-label">Years Healthcare IT Experience</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-number">7+</div>
+        <div class="stat-label">NABH Audit Experiences</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-number">∞</div>
+        <div class="stat-label">Ideas for Digital Healthcare</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="expertise">
+  <div class="container">
+
+    <h2 class="section-title">Areas of Expertise</h2>
+
+    <p class="section-subtitle">
+      Technology domains I work with and explore.
+    </p>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>🏥 Healthcare IT</h3>
+        <p>
+          HMIS, hospital applications, digital workflows,
+          interoperability and IT operations.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🤖 Artificial Intelligence</h3>
+        <p>
+          AI applications, analytics, automation and
+          emerging technologies in healthcare.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🔐 Cybersecurity</h3>
+        <p>
+          Healthcare cybersecurity, ransomware preparedness,
+          risk management and information security.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Data & Analytics</h3>
+        <p>
+          SQL, dashboards, business intelligence,
+          data engineering and decision support.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🛡️ Data Privacy</h3>
+        <p>
+          Digital Personal Data Protection, privacy awareness,
+          governance and responsible data management.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌐 Digital Health</h3>
+        <p>
+          ABDM, digital patient journeys, interoperability
+          and connected healthcare ecosystems.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="about">
+  <div class="container">
+
+    <h2 class="section-title">Projects & Achievements</h2>
+
+    <p class="section-subtitle">
+      Selected areas of healthcare technology transformation.
+    </p>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>HMIS Transformation</h3>
+        <p>
+          Evaluation and transformation of Hospital Management
+          Information Systems with focus on usability,
+          cloud architecture, ABDM and NABH requirements.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Healthcare Cybersecurity</h3>
+        <p>
+          Experience in healthcare cybersecurity,
+          ransomware response and IT risk mitigation.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Data Privacy Awareness</h3>
+        <p>
+          Healthcare-focused awareness and implementation
+          discussions around India's DPDP Act, 2023.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="insights">
+  <div class="container">
+
+    <h2 class="section-title">CIO Insights</h2>
+
+    <p class="section-subtitle">
+      Thoughts on technology, healthcare and digital transformation.
+    </p>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>AI in Healthcare</h3>
+        <p>
+          How AI can transform hospital operations,
+          analytics and patient experience.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Healthcare Cybersecurity</h3>
+        <p>
+          Why cybersecurity should be treated as
+          a patient-safety and business-continuity priority.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>DPDP & Healthcare</h3>
+        <p>
+          Understanding personal data protection
+          from a healthcare organization's perspective.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="container">
+
+    <h2 class="section-title">Professional Journey</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <h3>Healthcare Technology Leadership</h3>
+        <p>
+          Leading and supporting technology initiatives
+          across healthcare environments.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Digital Transformation</h3>
+        <p>
+          Driving digital workflows, HMIS evaluation,
+          automation and technology adoption.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Future of Healthcare Technology</h3>
+        <p>
+          Exploring AI, analytics, cybersecurity,
+          interoperability and next-generation digital health.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+
+    <h2 class="section-title">Let's Connect</h2>
+
+    <p>
+      Interested in healthcare technology, digital transformation,
+      AI, cybersecurity or collaboration?
+    </p>
+
+    <br>
+
+    <p>
+      Professional discussions, speaking opportunities,
+      technology collaborations and knowledge sharing are welcome.
+    </p>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Shree Kadam. All Rights Reserved.
+</footer>
+
+</body>
+</html>
